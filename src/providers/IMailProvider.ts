@@ -4,8 +4,8 @@ interface IAddress{
 }
 
 export interface IMessage{
-  to: string;
-  from: string;
+  to: IAddress;
+  from: IAddress;
   subject: string;
   body: string;
 }
